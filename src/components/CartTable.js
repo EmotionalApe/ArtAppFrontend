@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CartTable = ({ cartItems }) => {
+const CartTable = ({ cartItems, increaseQuantity, decreaseQuantity }) => {
     return (
         <table className="min-w-full divide-y divide-gray-200">
             <thead className="bg-gray-50">
@@ -35,7 +35,15 @@ const CartTable = ({ cartItems }) => {
                             ₹{item.price.toFixed(2)}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap">
-                            {item.quantity}
+                            <div className="flex items-center">
+                                <button onClick={() => decreaseQuantity(item.id)} className="bg-gray-200 px-2 py-1 rounded-md mr-2">
+                                    -
+                                </button>
+                                {item.quantity}
+                                <button onClick={() => increaseQuantity(item.id)} className="bg-gray-200 px-2 py-1 rounded-md ml-2">
+                                    +
+                                </button>
+                            </div>
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap">
                             ${(item.price * item.quantity).toFixed(2)}
