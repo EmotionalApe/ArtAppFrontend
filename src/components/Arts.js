@@ -22,7 +22,7 @@ const Arts = () => {
                     rating: 4.3
                 }} />
 
-<Art
+            <Art
                 details={{
                     title: 'Mona Lisa',
                     artist: 'Leonardo Da Vinci',
@@ -40,7 +40,7 @@ const Arts = () => {
                     rating: 4.3
                 }} />
 
-<Art
+            <Art
                 details={{
                     title: 'Mona Lisa',
                     artist: 'Leonardo Da Vinci',
@@ -58,7 +58,7 @@ const Arts = () => {
                     rating: 4.3
                 }} />
 
-<Art
+            <Art
                 details={{
                     title: 'Mona Lisa',
                     artist: 'Leonardo Da Vinci',
@@ -76,7 +76,7 @@ const Arts = () => {
                     rating: 4.3
                 }} />
 
-<Art
+            <Art
                 details={{
                     title: 'Mona Lisa',
                     artist: 'Leonardo Da Vinci',

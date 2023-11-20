@@ -13,12 +13,25 @@ const Navbar = () => {
                 <div>About</div>
                 <div>Contact</div>
                 <div>Login</div>
+                <div>Sign Up</div>
+
             </div>
 
             <div>
-                <Link to="/cart">
+
+                <Link to="/wishlist">
+                    ❤️  Wishlist
+                </Link>
+
+                <Link to="/cart" className='ml-5'>
                     🛒 Cart
                 </Link>
+
+                <Link to="/account" className='ml-5'>
+                    👤 My Account
+                </Link>
+
+
             </div>
         </div>
     )
