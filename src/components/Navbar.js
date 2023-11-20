@@ -11,7 +11,6 @@ const Navbar = () => {
             <div className='flex flex-row space-x-5'>
                 <div><Link to="/">Home</Link></div>
                 <div>About</div>
-                <div>Contact</div>
                 <div>Login</div>
                 <div>Sign Up</div>
 
